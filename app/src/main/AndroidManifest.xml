@@ -22,6 +22,7 @@
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="Learn Français"
+        android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
@@ -43,9 +44,7 @@
         <activity
             android:name=".MonthsActivity"
             android:label="Mois" />
-        <activity android:name=".User">
-
-        </activity>
+        <activity android:name=".User" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>
@@ -54,6 +53,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Googlesignin" />
+        <activity android:name=".SelectionScreen" />
+        <activity android:name=".Facts" />
+        <activity android:name=".Quiz" />
     </application>
 
 </manifest>

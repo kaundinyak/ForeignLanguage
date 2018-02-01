@@ -24,14 +24,14 @@ public class PhrasesActivity extends AppCompatActivity {
 
         words.add(new Word("Hi!","Salut!"));
         words.add(new Word("Good Morning","Bonjour!"));
-        words.add(new Word("How are you?","Comment vas-tu?/ Comment allez-vous?"));
+        words.add(new Word("How are you?","Comment allez-vous?"));
         words.add(new Word("I'm Fine, Thankyou!","Je vais bien, merci! "));
         words.add(new Word("Good night","Bonne nuit! "));
         words.add(new Word("Can i help you ?","Puis-je vous aider? "));
-        words.add(new Word("What's your name?","Comment t'appelles-tu?/ Comment vous appelez-vous "));
+        words.add(new Word("What's your name?","Comment vous appelez-vous "));
         words.add(new Word("My name is...","Je m'appelle …"));
-        words.add(new Word("Mr.../ Mrs.…/ Miss…","Monsieur.../ Madame.../ Mademoiselle…"));
-        words.add(new Word("How old are you?","Quel âge as-tu? Quel âge avez-vous?"));
+        words.add(new Word("Mr.../ Mrs.…/ Miss…","Monsieur./Madame./Mademoiselle"));
+        words.add(new Word("How old are you?","Quel âge avez-vous?"));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
 

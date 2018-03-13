@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@mipmap/ic_home_black_24dp"
+        android:title="Home"></item>
+
+    <item
+        android:id="@+id/nav_selectlanguage"
+        android:icon="@mipmap/ic_language_black_24dp"
+        android:title="Select Language"></item>
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@mipmap/ic_settings_black_24dp"
+        android:title="Settings"></item>
+
+    <item
+        android:id="@+id/nav_aboutus"
+        android:icon="@mipmap/ic_group_black_24dp"
+        android:title="About Us"></item>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@mipmap/ic_exit_to_app_black_24dp"
+        android:title="Logout"></item>
+
+</menu>

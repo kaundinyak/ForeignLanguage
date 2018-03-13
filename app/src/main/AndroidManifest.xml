@@ -17,12 +17,14 @@
     package="com.example.android.miwok">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="Learn Français"
         android:largeHeap="true"
+        android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
@@ -44,8 +46,6 @@
         <activity
             android:name=".MonthsActivity"
             android:label="Mois" />
-        <activity android:name=".User" />
-        <activity android:name=".LoginActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,8 +55,49 @@
         </activity>
         <activity android:name=".Googlesignin" />
         <activity android:name=".SelectionScreen" />
-        <activity android:name=".Facts" />
         <activity android:name=".Quiz" />
+        <activity
+            android:name=".Facts"
+            android:label="FACTS"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LanguageChooser"
+            android:label="Select Language" />
+        <activity
+            android:name=".MainActivitySpanish"
+            android:label="Learn Español" />
+        <activity android:name=".MainActivityGerman"
+            android:label="Deutsch lernen"/>
+        <activity
+            android:name=".SelectionSpanish"
+            android:label="Learn Español" />
+        <activity android:name=".FactsSpanish"
+            android:label="Learn Español"/>
+        <activity android:name=".QuizSpanish"
+            android:label="Learn Español"/>
+        <activity
+            android:name=".ColorsActivity2"
+            android:label="Colores" />
+        <activity
+            android:name=".NumbersActivity2"
+            android:label="Números" />
+        <activity
+            android:name=".FamilyActivity2"
+            android:label="Miembros de la familia" />
+        <activity
+            android:name=".PhrasesActivity2"
+            android:label="Frases" />
+        <activity
+            android:name=".WeeksActivity2"
+            android:label="Semanas" />
+        <activity
+            android:name=".MonthsActivity2"
+            android:label="Meses" />
+        <activity
+            android:name=".NavigationDrawer"
+            android:label="F.L." />
+        <activity android:name=".GoogleLogout" />
+        <activity android:name=".Books"></activity>
     </application>
 
 </manifest>

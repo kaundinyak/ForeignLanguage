@@ -16,8 +16,8 @@ public class SplashScreen extends AppCompatActivity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_splash_screen);
 
-        getSupportActionBar().hide();
 
+        getSupportActionBar().hide();
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/galaxy"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:padding="30dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.miwok.LanguageChooser">
+
+    <Button
+        android:id="@+id/frenchBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FRENCH"
+        android:background="@drawable/frenchround"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="60sp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/spanishBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SPANISH"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="60sp"
+        android:background="@drawable/spanishround"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/germanBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GERMAN"
+        android:textStyle="bold"
+        android:background="@drawable/germanround"
+        android:layout_gravity="center"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        />
+
+</LinearLayout>

@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void onClick(View v) {
         viewFlipper.startFlipping();
-        viewFlipper.setFlipInterval(2000);
+        viewFlipper.setFlipInterval(1000);
     }
 
 

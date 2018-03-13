@@ -4,19 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/languages"
+    android:background="@drawable/mdgoogle"
     android:orientation="vertical"
     tools:context="com.example.android.miwok.Googlesignin">
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/googleBtn"
         android:layout_width="match_parent"
-        android:layout_height="59dp"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="375dp"
-
-
+        android:layout_marginTop="250dp"
         tools:ignore="InvalidId">
 
     </com.google.android.gms.common.SignInButton>

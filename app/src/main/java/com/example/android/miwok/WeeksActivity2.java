@@ -18,7 +18,7 @@ public class WeeksActivity2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_weeks);
+        setContentView(R.layout.activity_weeks2);
 
         ArrayList<WordSpanish> words = new ArrayList<WordSpanish>();
 

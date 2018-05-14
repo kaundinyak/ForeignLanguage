@@ -58,7 +58,7 @@ public class SelectionFrench extends AppCompatActivity {
                     }
                     if(finalI==3)
                     {
-                        startActivity(new Intent(SelectionFrench.this, Books.class));
+                        startActivity(new Intent(SelectionFrench.this, FrenchBooks.class));
                     }
 
                 }

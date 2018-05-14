@@ -49,10 +49,6 @@
         <activity android:name=".Googlesignin" />
         <activity android:name=".Quiz" />
         <activity
-            android:name=".Facts"
-            android:label="FACTS"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".LanguageChooser"
             android:label="Select Language" />
         <activity
@@ -146,7 +142,8 @@
         <activity android:name=".FrenchConjugations.Etre" />
         <activity android:name=".FrenchConjugations.Aller" />
         <activity android:name=".FrenchConjugations.Lire" />
-        <activity android:name=".FrenchConjugations.Parler"></activity>
+        <activity android:name=".FrenchConjugations.Parler" />
+        <activity android:name=".FrenchBooks"></activity>
     </application>
 
 </manifest>

@@ -13,15 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<ScrollView
+
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.android.miwok.MainActivity"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/tan_background">
-<LinearLayout
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/tan_background"
@@ -33,8 +29,6 @@
         style="@style/CategoryStyle"
         android:background="@color/category_numbers"
         android:text="@string/category_numbers" />
-
-
 
     <TextView
         android:id="@+id/family"
@@ -72,35 +66,4 @@
         android:text="@string/category_months"
          />
 
-    <ViewFlipper
-        android:id="@+id/viewFlipper"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true">
-    <ImageView
-        android:id="@+id/icon1"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:src="@drawable/icon"
-
-
-        />
-        <ImageView
-            android:id="@+id/icon2"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"
-            android:src="@drawable/map"
-            android:onClick="openWebpage"
-
-            />
-        <ImageView
-            android:id="@+id/icon3"
-            android:layout_height="match_parent"
-            android:layout_width="match_parent"
-            android:src="@drawable/paris"
-
-            />
-    </ViewFlipper>
 </LinearLayout>
-</ScrollView>

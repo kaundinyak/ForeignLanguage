@@ -8,29 +8,60 @@
     android:id="@+id/drawerLayout"
     tools:context="com.example.android.miwok.NavigationDrawer">
 
-
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@drawable/space"
-        >
-        <TextView
-            android:layout_width="wrap_content"
+        android:background="@drawable/space">
+        <ImageView
+            android:id="@+id/franceflag"
             android:layout_height="wrap_content"
-            android:text="Never Stop Learning..."
-            android:textSize="45sp"
-            android:textAllCaps="true"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:textColor="#D1C4E9"
-            android:layout_margin="80dp"
-            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/franceflag"
             />
 
+        <ImageView
+            android:id="@+id/spainflag"
+            android:layout_toRightOf="@+id/franceflag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/flagspain"/>
+        <ImageView
+            android:id="@+id/germanflag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/flaggermany"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_below="@+id/franceflag"
+            />
+        <ImageView
+            android:id="@+id/facts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/appfact"
+            android:layout_below="@+id/spainflag"
+            android:layout_toRightOf="@+id/germanflag"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="8dp"/>
+        <ImageView
+            android:id="@+id/quiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/appquiz"
+            android:layout_below="@+id/germanflag"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
 
-    </LinearLayout>
 
+
+
+    </RelativeLayout>
 
     <android.support.design.widget.NavigationView
         android:layout_width="wrap_content"

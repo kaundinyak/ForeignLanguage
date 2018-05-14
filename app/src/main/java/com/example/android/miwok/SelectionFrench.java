@@ -5,11 +5,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.View;
+import android.widget.Button;
 import android.widget.GridLayout;
 
 public class SelectionFrench extends AppCompatActivity {
 
     GridLayout mainGrid;
+    Button btnconjugate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +22,14 @@ public class SelectionFrench extends AppCompatActivity {
         mainGrid = (GridLayout) findViewById(R.id.mainGrid);
 
         setSingleEvent(mainGrid);
-        
+        btnconjugate = (Button) findViewById(R.id.btnconjugate);
+
+        btnconjugate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SelectionFrench.this,Conjugate.class));
+            }
+        });
     }
 
     private void setSingleEvent(GridLayout mainGrid) {
@@ -41,7 +50,7 @@ public class SelectionFrench extends AppCompatActivity {
                     }
                     if(finalI==1)
                     {
-                        startActivity(new Intent(SelectionFrench.this, Facts.class));
+                        startActivity(new Intent(SelectionFrench.this, FrenchFacts.class));
                     }
                     if (finalI ==2)
                     {

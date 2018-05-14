@@ -20,15 +20,16 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ViewFlipper;
 
 import static android.net.Uri.*;
 
-public class MainActivityGerman extends AppCompatActivity implements View.OnClickListener {
+public class MainActivityGerman extends AppCompatActivity {
 
-    ViewFlipper viewFlipper;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,10 +37,6 @@ public class MainActivityGerman extends AppCompatActivity implements View.OnClic
 
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main_german);
-
-        viewFlipper = (ViewFlipper) this.findViewById(R.id.viewFlipper);
-        viewFlipper.setOnClickListener(this);
-
 
 
         // Fine the View that shows Numbers category
@@ -103,18 +100,6 @@ public class MainActivityGerman extends AppCompatActivity implements View.OnClic
                 startActivity(i);
             }
         });
-    }
-
-    public void openWebpage(View view) {
-        Uri uri= Uri.parse("https://en.wikipedia.org/wiki/Spain");
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
-
-    }
-
-    public void onClick(View v) {
-        viewFlipper.startFlipping();
-        viewFlipper.setFlipInterval(1000);
     }
 
 

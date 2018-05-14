@@ -46,13 +46,6 @@
         <activity
             android:name=".MonthsActivity"
             android:label="Mois" />
-        <activity android:name=".SplashScreen">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity android:name=".Googlesignin" />
         <activity android:name=".Quiz" />
         <activity
@@ -135,7 +128,25 @@
             android:label="Deutsch lernen" />
         <activity android:name=".WelcomeActivity" />
         <activity android:name=".LoginQuiz" />
-        <activity android:name=".HomeFrenchQuiz"></activity>
+        <activity android:name=".HomeFrenchQuiz" />
+        <activity android:name=".AnimSpashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutUs" />
+        <activity android:name=".AppIntro1" />
+        <activity android:name=".Translate" />
+        <activity android:name=".Conjugate" />
+        <activity android:name=".FrenchFacts" />
+        <activity android:name=".FrenchConjugations.Avoir" />
+        <activity android:name=".FrenchConjugations.Finir" />
+        <activity android:name=".FrenchConjugations.Etre" />
+        <activity android:name=".FrenchConjugations.Aller" />
+        <activity android:name=".FrenchConjugations.Lire" />
+        <activity android:name=".FrenchConjugations.Parler"></activity>
     </application>
 
 </manifest>

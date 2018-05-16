@@ -49,7 +49,7 @@ public class SelectionGerman extends AppCompatActivity {
                     }
                     if(finalI==3)
                     {
-                        startActivity(new Intent(SelectionGerman.this, FactsGerman.class));
+                        startActivity(new Intent(SelectionGerman.this, GermanBooks.class));
                     }
 
                 }

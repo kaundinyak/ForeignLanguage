@@ -65,6 +65,7 @@ public class FrenchBooks extends AppCompatActivity implements RecyclerAdapterBoo
 
 
     }
+
     @Override
 
     public void onListItemClick(View view, int position) {

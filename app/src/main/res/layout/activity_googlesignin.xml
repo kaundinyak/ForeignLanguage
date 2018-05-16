@@ -8,13 +8,26 @@
     android:orientation="vertical"
     tools:context="com.example.android.miwok.Googlesignin">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOG IN TO START LEARNING"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aclonica"
+        android:layout_marginTop="150dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+
     <com.google.android.gms.common.SignInButton
         android:id="@+id/googleBtn"
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginTop="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
         tools:ignore="InvalidId">
 
     </com.google.android.gms.common.SignInButton>

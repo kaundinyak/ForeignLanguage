@@ -102,10 +102,7 @@ public class NavigationDrawer extends AppCompatActivity implements NavigationVie
             startActivity(new Intent(NavigationDrawer.this,LanguageChooser.class));
         }
 
-        if(id == R.id.nav_settings){
-            Toast.makeText(this,"Coming Soon",Toast.LENGTH_SHORT).show();
-            //startActivity(new Intent(NavigationDrawer.this,NavigationDrawer.class));
-        }
+
 
         return false;
 

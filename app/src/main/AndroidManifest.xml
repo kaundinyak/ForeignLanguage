@@ -143,7 +143,8 @@
         <activity android:name=".FrenchConjugations.Aller" />
         <activity android:name=".FrenchConjugations.Lire" />
         <activity android:name=".FrenchConjugations.Parler" />
-        <activity android:name=".FrenchBooks"></activity>
+        <activity android:name=".FrenchBooks" />
+        <activity android:name=".French.FrenchMainLearn"></activity>
     </application>
 
 </manifest>

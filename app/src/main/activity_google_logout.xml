@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animwall"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context="com.example.android.miwok.GoogleLogout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:text="Are You A Boring Person?"
+        android:textColor="#FFEBEE"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/audiowide" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="350dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/noBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:layout_margin="10dp"
+            android:textSize="60sp" />
+        <Button
+            android:id="@+id/yesBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="YES"
+            android:textSize="60sp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
